@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".WarpActivity">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_undo" android:title="Undo"
+        android:orderInCategory="50" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_take_picture" android:title="Take Picture"
+        android:orderInCategory="65" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_load_picture" android:title="Load Picture"
+        android:orderInCategory="70" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_save" android:title="Save"
+        android:orderInCategory="75" app:showAsAction="never" />
+    <item android:id="@+id/action_discard" android:title="Discard"
+        android:orderInCategory="80" app:showAsAction="never"/>
+    <item android:id="@+id/action_swirl" android:title="Swirl"
+          android:orderInCategory="110" app:showAsAction="never"/>
+    <item android:id="@+id/action_narrow" android:title="Narrow"
+          android:orderInCategory="120" app:showAsAction="never"/>
+    <item android:id="@+id/action_fisheye" android:title="Fisheye"
+          android:orderInCategory="130" app:showAsAction="never"/>
+</menu>
